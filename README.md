@@ -9,6 +9,9 @@ Code folders:
 
 (2) `commonse-qa`: use the generator to generate paths and then train the qa system on task dataset.
 
+(3) `A-Commonsense-Path-Generator-for-Connecting-Entities.ipynb`: The notebook illustrating how to use our proposed generator to connect a pair of entities
+with a commonsense relational path. 
+
 Part of this code and instruction rely on our another project [[code](https://github.com/INK-USC/MHGRN)][[arxiv](https://arxiv.org/abs/2005.00646)].  Please cite both of our works if you use this code. Thanks!
 ```
 @article{wang2020connecting,
@@ -66,6 +69,9 @@ Then you can start to train the path generator by running
 The checkpoint of the path generator would be stored in './checkpoints/model.ckpt'. 
 Move it to '../commonsense-qa/saved_models/pretrain_generator'.
 So far, we are done with training the generator.
+
+Alternatively, you can also download our well-trained path generator from:
+https://drive.google.com/file/d/1dQNxyiP4g4pdFQD6EPMQdzNow9sQevqD/view?usp=sharing.
 
 ## For training a commonsense qa system
 
