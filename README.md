@@ -70,8 +70,7 @@ The checkpoint of the path generator would be stored in './checkpoints/model.ckp
 Move it to '../commonsense-qa/saved_models/pretrain_generator'.
 So far, we are done with training the generator.
 
-Alternatively, you can also download our well-trained path generator [checkpoint]
-(https://drive.google.com/file/d/1dQNxyiP4g4pdFQD6EPMQdzNow9sQevqD/view?usp=sharing).
+Alternatively, you can also download our well-trained path generator [checkpoint](https://drive.google.com/file/d/1dQNxyiP4g4pdFQD6EPMQdzNow9sQevqD/view?usp=sharing).
 
 ## For training a commonsense qa system
 
