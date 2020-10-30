@@ -1,7 +1,7 @@
 # Path-Generator-QA 
 
 This is a Pytorch implementation for the EMNLP 2020 (Findings) paper: 
-Connecting the Dots: A Knowledgeable Path Generator for Commonsense Question Answering [[arxiv](https://arxiv.org/abs/2005.00691)]
+Connecting the Dots: A Knowledgeable Path Generator for Commonsense Question Answering [[arxiv](https://arxiv.org/abs/2005.00691)][[project page](https://wangpf3.github.io/pathgen-project-page/)]
 
 Code folders: 
 
@@ -70,8 +70,8 @@ The checkpoint of the path generator would be stored in './checkpoints/model.ckp
 Move it to '../commonsense-qa/saved_models/pretrain_generator'.
 So far, we are done with training the generator.
 
-Alternatively, you can also download our well-trained path generator from:
-https://drive.google.com/file/d/1dQNxyiP4g4pdFQD6EPMQdzNow9sQevqD/view?usp=sharing.
+Alternatively, you can also download our well-trained path generator [checkpoint]
+(https://drive.google.com/file/d/1dQNxyiP4g4pdFQD6EPMQdzNow9sQevqD/view?usp=sharing).
 
 ## For training a commonsense qa system
 
